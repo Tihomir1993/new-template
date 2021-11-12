@@ -1,0 +1,16 @@
+body {
+    font-family: 'SF Pro Display';
+    font-size: 16px;
+}
+
+svg {
+	vertical-align: middle;
+}
+
+.row {
+	max-width: 72em;
+    &.row-small {
+        max-width: 29.5rem;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,15 @@
+.btn {
+    display: inline-block;
+    &.btn-medium {
+        padding: .5em .75em;
+        background: var(--color-primary);
+        border-radius: .375em;
+        color: var(--color-primary-invert);
+    }
+    &.btn-small {
+        padding: .5em;
+        background: var(--color-light-gray);
+        border-radius: .375em;
+        color: var(--color-dark);
+    }
+}
