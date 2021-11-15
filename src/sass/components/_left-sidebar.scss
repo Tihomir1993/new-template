@@ -1,0 +1,26 @@
+.left-sidebar {
+    .category-name {
+        font-size: 1em;
+        margin: 0 0 1.5em 0;
+    }
+    .category-list {
+        .list-item {
+            margin-bottom: .75em;
+            a {
+                display: flex;
+                align-items: center;
+                img {
+                    width: 2.5em;
+                    height: auto;
+                }
+                span {
+                    margin-left: 1em;
+                    font-weight: 500;
+                }
+                &:hover {
+                    color: var(--color-primary);
+                }
+            }
+        }
+    }
+}

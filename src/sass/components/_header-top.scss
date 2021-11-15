@@ -6,13 +6,14 @@
         padding: 0;
         .list-item {
             margin: 0 1em;
-            &:first-child {
+            &:first-of-type {
                 margin-left: 2em;
             }
-            &:last-child {
+            &:last-of-type {
                 margin-right: 2em;
             }
             a {
+							font-weight: 700;
                 color: var(--color-primary-invert);
             }
         }

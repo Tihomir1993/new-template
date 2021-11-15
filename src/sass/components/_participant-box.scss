@@ -1,0 +1,10 @@
+.recently-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5em;
+    margin-bottom: 5.5em;
+    .description {
+        font-size: 1.125em;
+        font-weight: 500;
+    }
+}
