@@ -23,4 +23,21 @@
             }
         }
     }
+    @media (max-width: 55em) {
+        .category-list {
+            display: flex;
+            flex-wrap: wrap;
+            .list-item {
+                margin: .75em 1.5em .75em 0;
+            }
+        }
+    }
+    @media (max-width: 35em) {
+        .category-list {
+            flex-direction: column;
+            .list-item {
+                margin: .75em 0 .75em 0;
+            }
+        }
+    }
 }

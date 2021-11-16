@@ -20,6 +20,7 @@
         background: var(--color-primary-invert);
         color: var(--color-secondary);
         border-radius: 5px;
+				font-weight: 500;
         display: flex;
         align-items: center;
         svg {
@@ -28,5 +29,14 @@
                 fill: var(--color-secondary) !important;
             }
         }
+				&:hover {
+					background: var(--color-primary);
+					color: var(--color-primary-invert);
+					svg {
+						path {
+							fill: var(--color-primary-invert) !important;
+						}
+					}
+				}
     }
 }

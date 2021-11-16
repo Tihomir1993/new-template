@@ -6,6 +6,15 @@
         display: grid;
         grid-template-columns: 3fr 8fr 3fr;
         gap: 0 2.5em;
+        @media (max-width: 72em) {
+            grid-template-columns: 3fr 5fr;
+        }
+        @media (max-width: 55em) {
+            grid-template-columns: 5fr;
+						img {
+							width: 100%;
+						}
+        }
     }
     .main-center {
         display: flex;
@@ -18,11 +27,21 @@
 }
 
 .section-recently {
+    padding: 2em 0;
     .recently-published {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
+        .recently-headline {
+            font-size: 1.375em;
+            font-weight: 700;
+        }
+        @media (max-width: 40em) {
+            flex-direction: column;
+            align-items: center;
+						margin-bottom: 1em;
+        }
     }
     .search-wrapper {
         background: #EEEEEE;

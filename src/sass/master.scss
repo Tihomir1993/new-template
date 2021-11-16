@@ -1,13 +1,10 @@
 @charset "UTF-8";
-
 @import "./base/variables";
 @import "./base/typography";
 @import "./base/normalize";
 @import "./base/global";
 @import "./base/font";
-
-
-@import "./components/list";
+@import "./components/right-sidebar";
 @import "./components/buttons";
 @import "./components/sections";
 @import "./components/heading";
@@ -16,11 +13,8 @@
 @import "./components/participant-box";
 @import "./components/left-sidebar";
 @import "./components/header-top";
-
 @import "./layout/footer";
 @import "./layout/header";
-
 @import "../../node_modules/foundation-sites/scss/foundation";
-
 @include foundation-flex-classes;
 @include foundation-flex-grid;

@@ -1,0 +1,11 @@
+.right-sidebar {
+    @media (max-width: 72em) {
+        display: none;
+    }
+    @media (max-width: 54em) {
+        display: block;
+        img {
+            width: 100%;
+        }
+    }
+}

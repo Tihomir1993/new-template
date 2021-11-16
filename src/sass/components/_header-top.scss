@@ -23,11 +23,12 @@
             justify-content: center;
             .list-item {
                 margin: .5em 0;
-                &:first-child {
-                    margin-top: 1em;
+                &:first-of-type  {
+                    margin: 1em 0 .5em 0;
+								
                 }
-                &:last-child {
-                    margin-bottom: 1em;
+                &:last-of-type {
+									margin: .5em 0 1em 0;
                 }
             }
         }

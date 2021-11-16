@@ -7,4 +7,13 @@
         font-size: 1.125em;
         font-weight: 500;
     }
+    @media (max-width: 72em) {
+        grid-template-columns: 1fr 1fr;
+        img {
+            width: 100%;
+        }
+    }
+    @media (max-width: 40em) {
+        grid-template-columns: 1fr;
+    }
 }
