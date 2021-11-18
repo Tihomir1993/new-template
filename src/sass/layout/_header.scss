@@ -29,6 +29,8 @@
     .toggle-menu {
         display: none;
     }
+
+    // CAN WE USE HERE THE VARIABLE YOU HAVE :$breakpoint-mobile
     @media (max-width: 48em) {
         position: relative;
         ul {
@@ -63,6 +65,10 @@
                 &:first-child {
                     margin: 0;
                 }
+            }
+           // USED FOR TOGGLE MOBILE MENU 
+            &.show{
+                display: flex;
             }
         }
         .toggle-menu {

@@ -3,9 +3,16 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2.5em;
     margin-bottom: 5.5em;
+    
+    // THIS FIXES EXTRA SPACE AFTER IMG
+    img{
+        display: block;
+    }
     .description {
         font-size: 1.125em;
         font-weight: 500;
+    // DO YOU THINK WE COULD REMOVE THIS.
+        margin-bottom: 0;
     }
     @media (max-width: 72em) {
         grid-template-columns: 1fr 1fr;
