@@ -1,290 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="./dist/css/master.css">
-
-    <script src="./dist/scripts/bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous">
+    </script>
+    
     <title>Document</title>
 </head>
-
 <body>
-    <div class="header-top">
-        <div class="row row-small">
 
-            <ul class="header-top-list">
-                <svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path
-						d="M6.75 1.75C6.75 2.33333 6.92708 2.89583 7.28125 3.4375C7.65625 3.95833 8.09375 4.44792 8.59375 4.90625C9.11458 5.34375 9.625 5.82292 10.125 6.34375C10.6458 6.86458 11.0833 7.53125 11.4375 8.34375C11.8125 9.13542 12 10.0208 12 11C12 12.6458 11.4062 14.0521 10.2188 15.2188C9.05208 16.4062 7.64583 17 6 17C4.35417 17 2.9375 16.4062 1.75 15.2188C0.583333 14.0521 0 12.6458 0 11C0 10.0208 0.229167 9.09375 0.6875 8.21875C1.14583 7.34375 1.77083 6.625 2.5625 6.0625C2.8125 5.89583 3.07292 5.88542 3.34375 6.03125C3.61458 6.17708 3.75 6.39583 3.75 6.6875V10C3.75 10.3542 3.86458 10.6562 4.09375 10.9062C4.34375 11.1354 4.64583 11.25 5 11.25C5.35417 11.25 5.64583 11.1354 5.875 10.9062C6.125 10.6562 6.25 10.3542 6.25 10C6.25 9.75 6.125 9.40625 5.875 8.96875C5.625 8.53125 5.36458 8.07292 5.09375 7.59375C4.82292 7.11458 4.58333 6.57292 4.375 5.96875C4.1875 5.36458 4.16667 4.65625 4.3125 3.84375C4.45833 3.03125 4.8125 2.19792 5.375 1.34375C5.58333 1.03125 5.86458 0.927083 6.21875 1.03125C6.57292 1.13542 6.75 1.375 6.75 1.75ZM2.8125 14.1875C3.6875 15.0625 4.75 15.5 6 15.5C7.25 15.5 8.3125 15.0625 9.1875 14.1875C10.0625 13.3125 10.5 12.25 10.5 11C10.5 10.1458 10.3021 9.36458 9.90625 8.65625C9.53125 7.92708 9.09375 7.34375 8.59375 6.90625C8.11458 6.46875 7.58333 5.9375 7 5.3125C6.4375 4.6875 6.02083 4.08333 5.75 3.5C5.54167 4.29167 5.59375 5.08333 5.90625 5.875C6.23958 6.64583 6.625 7.39583 7.0625 8.125C7.52083 8.85417 7.75 9.47917 7.75 10C7.75 10.75 7.47917 11.3958 6.9375 11.9375C6.39583 12.4792 5.75 12.75 5 12.75C4.25 12.75 3.60417 12.4792 3.0625 11.9375C2.52083 11.3958 2.25 10.75 2.25 10V8.25C1.75 9 1.5 9.91667 1.5 11C1.5 12.25 1.9375 13.3125 2.8125 14.1875Z"
-						fill="white" />
-				</svg>
-                <li class="list-item"><a href="#" name="London2022">London2022</a></li>
-                <li class="list-item"><a href="#" name="China">China</a></li>
-                <li class="list-item"><a href="#" name="Megan">Megan</a></li>
-                <li class="list-item"><a href="#" name="Harambe603;">Harambe&#60;3</a></li>
-                <svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path
-						d="M6.75 1.75C6.75 2.33333 6.92708 2.89583 7.28125 3.4375C7.65625 3.95833 8.09375 4.44792 8.59375 4.90625C9.11458 5.34375 9.625 5.82292 10.125 6.34375C10.6458 6.86458 11.0833 7.53125 11.4375 8.34375C11.8125 9.13542 12 10.0208 12 11C12 12.6458 11.4062 14.0521 10.2188 15.2188C9.05208 16.4062 7.64583 17 6 17C4.35417 17 2.9375 16.4062 1.75 15.2188C0.583333 14.0521 0 12.6458 0 11C0 10.0208 0.229167 9.09375 0.6875 8.21875C1.14583 7.34375 1.77083 6.625 2.5625 6.0625C2.8125 5.89583 3.07292 5.88542 3.34375 6.03125C3.61458 6.17708 3.75 6.39583 3.75 6.6875V10C3.75 10.3542 3.86458 10.6562 4.09375 10.9062C4.34375 11.1354 4.64583 11.25 5 11.25C5.35417 11.25 5.64583 11.1354 5.875 10.9062C6.125 10.6562 6.25 10.3542 6.25 10C6.25 9.75 6.125 9.40625 5.875 8.96875C5.625 8.53125 5.36458 8.07292 5.09375 7.59375C4.82292 7.11458 4.58333 6.57292 4.375 5.96875C4.1875 5.36458 4.16667 4.65625 4.3125 3.84375C4.45833 3.03125 4.8125 2.19792 5.375 1.34375C5.58333 1.03125 5.86458 0.927083 6.21875 1.03125C6.57292 1.13542 6.75 1.375 6.75 1.75ZM2.8125 14.1875C3.6875 15.0625 4.75 15.5 6 15.5C7.25 15.5 8.3125 15.0625 9.1875 14.1875C10.0625 13.3125 10.5 12.25 10.5 11C10.5 10.1458 10.3021 9.36458 9.90625 8.65625C9.53125 7.92708 9.09375 7.34375 8.59375 6.90625C8.11458 6.46875 7.58333 5.9375 7 5.3125C6.4375 4.6875 6.02083 4.08333 5.75 3.5C5.54167 4.29167 5.59375 5.08333 5.90625 5.875C6.23958 6.64583 6.625 7.39583 7.0625 8.125C7.52083 8.85417 7.75 9.47917 7.75 10C7.75 10.75 7.47917 11.3958 6.9375 11.9375C6.39583 12.4792 5.75 12.75 5 12.75C4.25 12.75 3.60417 12.4792 3.0625 11.9375C2.52083 11.3958 2.25 10.75 2.25 10V8.25C1.75 9 1.5 9.91667 1.5 11C1.5 12.25 1.9375 13.3125 2.8125 14.1875Z"
-						fill="white" />
-				</svg>
-            </ul>
+    <input id="input-file" class="d-none" type="file">
+<button id="btn-push">PUSH</button>
 
-        </div>
-    </div>
-    <header class="site-header">
-        <div class="row row-normal">
-            <a href="#" class="header-logo">
-                <h4 class="header-logo-name">ReactFaster.</h4>
-            </a>
 
-            <ul class="header-list">
-                <li class="list-item"><a href="#">Home</a></li>
-                <li class="list-item"><a href="#">Categories</a></li>
-                <li class="list-item"><a href="#">Editorial</a></li>
-                <li class="list-item"><a href="#">Quizzes</a></li>
-                <li class="list-item"><a href="#">Memes</a></li>
-            </ul>
-            <ul class="list-buttons">
-                <button id="toggle-menu" class="toggle-menu" value="">
-					<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" role="img"
-						xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"
-						class="svg-inline--fa fa-times fa-w-11 fa-2x menu-close-icon" width="30px" height="20px">
-						<path fill=" #F84444"
-							d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
-						</path>
-					</svg>
-					<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
-						class="svg-inline--fa fa-bars fa-w-14 menu-open-icon" role="img" xmlns="http://www.w3.org/2000/svg"
-						viewBox="0 0 448 512" width="20px" height="20px">
-						<path fill="#F84444"
-							d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
-						</path>
-					</svg>
-				</button>
-                <a href="#" class="btn btn-small"><svg width="17" height="17" viewBox="0 0 17 17" fill="none"
-						xmlns="http://www.w3.org/2000/svg">
-						<path
-							d="M15.875 14.6562C16.0625 14.8229 16.0625 15 15.875 15.1875L15.1875 15.875C15 16.0625 14.8229 16.0625 14.6562 15.875L10.875 12.0938C10.7917 12.0104 10.75 11.9271 10.75 11.8438V11.4062C9.52083 12.4688 8.10417 13 6.5 13C4.70833 13 3.17708 12.3646 1.90625 11.0938C0.635417 9.82292 0 8.29167 0 6.5C0 4.70833 0.635417 3.17708 1.90625 1.90625C3.17708 0.635417 4.70833 0 6.5 0C8.29167 0 9.82292 0.635417 11.0938 1.90625C12.3646 3.17708 13 4.70833 13 6.5C13 8.10417 12.4688 9.52083 11.4062 10.75H11.8438C11.9479 10.75 12.0312 10.7917 12.0938 10.875L15.875 14.6562ZM2.96875 10.0312C3.94792 11.0104 5.125 11.5 6.5 11.5C7.875 11.5 9.05208 11.0104 10.0312 10.0312C11.0104 9.05208 11.5 7.875 11.5 6.5C11.5 5.125 11.0104 3.94792 10.0312 2.96875C9.05208 1.98958 7.875 1.5 6.5 1.5C5.125 1.5 3.94792 1.98958 2.96875 2.96875C1.98958 3.94792 1.5 5.125 1.5 6.5C1.5 7.875 1.98958 9.05208 2.96875 10.0312Z"
-							fill="#2E2E2E" />
-					</svg>
-				</a>
-                <a href="#" class="btn btn-medium">Login</a>
-            </ul>
-        </div>
-    </header>
-    <section class="section-main">
-        <div class="row row-normal">
-            <div class="wrapper">
-                <div class="left-sidebar">
-                    <h6 class="category-name">Categories</h6>
-                    <ul class="category-list">
-                        <li class="list-item">
-                            <a href="">
-                                <img src="./dist/images/category-item1.png" alt="">
-                                <span>Automotive</span>
-                            </a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">
-                                <img src="./dist/images/category-item2.png" alt="">
-                                <span>Interior</span>
-                            </a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">
-                                <img src="./dist/images/category-item3.png" alt="">
-                                <span>Viral content</span>
-                            </a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">
-                                <img src="./dist/images/category-item4.png" alt="">
-                                <span>Videos and TV</span>
-                            </a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">
-                                <img src="./dist/images/category-item5.png" alt="">
-                                <span>Music</span>
-                            </a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">
-                                <img src="./dist/images/category-item6.png" alt="">
-                                <span>Celebs</span>
-                            </a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">
-                                <img src="./dist/images/category-item7.png" alt="">
-                                <span>Artwork</span>
-                            </a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">
-                                <img src="./dist/images/category-item8.png" alt="">
-                                <span>Memes</span>
-                            </a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">
-                                <img src="./dist/images/category-item9.png" alt="">
-                                <span>Creative work</span>
-                            </a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">
-                                <img src="./dist/images/category-item10.png" alt="">
-                                <span>Programmers</span>
-                            </a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">
-                                <img src="./dist/images/category-item11.png" alt="">
-                                <span>Animals</span>
-                            </a>
-                        </li>
-                        <li class="list-item">
-                            <a href="">
-                                <img src="./dist/images/category-item12.png" alt="">
-                                <span>Science</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="main-center">
-                    <h2 class="main-headline">Woman says 'I'm allowed to exist and be hot' after claiming neighbor called cops to complain about her outfit</h2>
-                    <img src="./dist/images/main-center-img.png" alt="">
-                    <p class="main-description">HMS Princess Royal was built for the British Royal Navy before the First World War in response to the Moltke-class battlecruisers of the Imperial German Navy and significantly improved on the speed, armament, and armour of earlier
-                        battlecruisers.
-                    </p>
-                </div>
-                <div class="right-sidebar">
-                    <div class="content-wrapper">
-                        <img src="./dist/images/post-image1.png" alt="">
-                        <p class="description">Sir David Attenborough writes letter to 4-year-old who asked if humans will become extinct
-                        </p>
-                    </div>
-                    <div class="content-wrapper">
-                        <img src="./dist/images/post-image2.png" alt="">
-                        <p class="description">Five-year-old receives kidney transplant after her preschool teacher agreed to be her donor
-                        </p>
-                    </div>
-                    <div class="content-wrapper">
-                        <img src="./dist/images/post-image3.png" alt="">
-                        <p class="description">Five-year-old receives kidney transplant after her preschool teacher agreed to be her donor
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section-recently">
-        <div class="row row-normal">
-            <div class="recently-published">
-                <h4 class="recently-headline">Recently published:</h4>
-                <div class="search-wrapper">
-                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path
-							d="M13.8906 13.9297C14.0547 14.0755 14.0547 14.2305 13.8906 14.3945L13.6445 14.6406C13.4805 14.8047 13.3255 14.8047 13.1797 14.6406L9.65234 11.1406C9.57943 11.0677 9.54297 10.9857 9.54297 10.8945V10.6211C8.44922 11.6237 7.16406 12.125 5.6875 12.125C4.11979 12.125 2.77995 11.569 1.66797 10.457C0.55599 9.34505 0 8.00521 0 6.4375C0 4.86979 0.55599 3.52995 1.66797 2.41797C2.77995 1.30599 4.11979 0.75 5.6875 0.75C7.25521 0.75 8.59505 1.30599 9.70703 2.41797C10.819 3.52995 11.375 4.86979 11.375 6.4375C11.375 7.91406 10.8737 9.19922 9.87109 10.293H10.1445C10.2357 10.293 10.3177 10.3294 10.3906 10.4023L13.8906 13.9297ZM2.26953 9.85547C3.21745 10.7852 4.35677 11.25 5.6875 11.25C7.01823 11.25 8.14844 10.7852 9.07812 9.85547C10.026 8.90755 10.5 7.76823 10.5 6.4375C10.5 5.10677 10.026 3.97656 9.07812 3.04688C8.14844 2.09896 7.01823 1.625 5.6875 1.625C4.35677 1.625 3.21745 2.09896 2.26953 3.04688C1.33984 3.97656 0.875 5.10677 0.875 6.4375C0.875 7.76823 1.33984 8.90755 2.26953 9.85547Z"
-							fill="#818181" />
-					</svg>
+    <script type="text/javascript">
+    jQuery($ => {
+  const inputFile = document.getElementById('input-file')
+  const games = []
 
-                    <input type="search" placeholder="Search for more">
-                </div>
-            </div>
-            <div class="recently-items">
-                <div class="recently-item">
-                    <img src="./dist/images/recently-img1.png" alt="">
-                    <p class="description">Five-year-old receives kidney transplant after her preschool teacher agreed to be her donor
-                    </p>
-                </div>
-                <div class="recently-item">
-                    <img src="./dist/images/recently-img2.png" alt="">
-                    <p class="description">Five-year-old receives kidney transplant after her preschool teacher agreed to be her donor
-                    </p>
-                </div>
-                <div class="recently-item">
-                    <img src="./dist/images/recently-img3.png" alt="">
-                    <p class="description">Five-year-old receives kidney transplant after her preschool teacher agreed to be her donor
-                    </p>
-                </div>
-                <div class="recently-item">
-                    <img src="./dist/images/recently-img4.png" alt="">
-                    <p class="description">Five-year-old receives kidney transplant after her preschool teacher agreed to be her donor
-                    </p>
-                </div>
-                <div class="recently-item">
-                    <img src="./dist/images/recently-img5.png" alt="">
-                    <p class="description">Five-year-old receives kidney transplant after her preschool teacher agreed to be her donor
-                    </p>
-                </div>
-                <div class="recently-item">
-                    <img src="./dist/images/recently-img6.png" alt="">
-                    <p class="description">Five-year-old receives kidney transplant after her preschool teacher agreed to be her donor
-                    </p>
-                </div>
-                <div class="recently-item">
-                    <img src="./dist/images/recently-img7.png" alt="">
-                    <p class="description">Five-year-old receives kidney transplant after her preschool teacher agreed to be her donor
-                    </p>
-                </div>
-                <div class="recently-item">
-                    <img src="./dist/images/recently-img8.png" alt="">
-                    <p class="description">Five-year-old receives kidney transplant after her preschool teacher agreed to be her donor
-                    </p>
-                </div>
-                <div class="recently-item">
-                    <img src="./dist/images/recently-img9.png" alt="">
-                    <p class="description">Five-year-old receives kidney transplant after her preschool teacher agreed to be her donor
-                    </p>
-                </div>
-                <div class="recently-item">
-                    <img src="./dist/images/recently-img10.png" alt="">
-                    <p class="description">Five-year-old receives kidney transplant after her preschool teacher agreed to be her donor
-                    </p>
-                </div>
-                <div class="recently-item">
-                    <img src="./dist/images/recently-img11.png" alt="">
-                    <p class="description">Five-year-old receives kidney transplant after her preschool teacher agreed to be her donor
-                    </p>
-                </div>
-                <div class="recently-item">
-                    <img src="./dist/images/recently-img12.png" alt="">
-                    <p class="description">Five-year-old receives kidney transplant after her preschool teacher agreed to be her donor
-                    </p>
-                </div>
-            </div>
-            <a href="#" class="btn btn-large">Read More<svg width="8" height="12" viewBox="0 0 8 12" fill="none"
-					xmlns="http://www.w3.org/2000/svg">
-					<path
-						d="M6.90625 6.25L2.3125 10.875C2.125 11.0625 1.94792 11.0625 1.78125 10.875L1.15625 10.2812C0.989583 10.0938 0.989583 9.91667 1.15625 9.75L4.875 6L1.15625 2.25C0.989583 2.08333 0.989583 1.90625 1.15625 1.71875L1.78125 1.125C1.94792 0.9375 2.125 0.9375 2.3125 1.125L6.90625 5.75C7.07292 5.91667 7.07292 6.08333 6.90625 6.25Z"
-						fill="black" />
-				</svg>
+  $('#btn-push').click(async() => {
+    const file = inputFile.files[0]
 
-				</svg>
-			</a>
-        </div>
-    </section>
+    // https://developer.mozilla.org/en-US/docs/Web/API/Blob/text#Browser_compatibility
+    // const text = await file.text() 
 
-    <footer class="site-footer">
-        <div class="row row-normal">
-            <a href="#" class="footer-logo">
-                <h4 class="footer-logo-name">ReactFaster.</h4>
-            </a>
-            <a href="#" class="footer-copyright">All rights reserved 2021</a>
-        </div>
-    </footer>
+    const text = await new Response(file).text()
+
+    games.push(text)
+    let game = games[0].split("\r\n");
+		let arrGame = [];
+		for (let index = 0; index < game.length; index++) {
+			 arrGame.push(game[index].split(","));
+			
+		}
+let = projects= []
+		for (let i = 0; i < arrGame.length; i++) {
+			
+			for (let j = 0; j < arrGame[i].length; j++) {
+				if(j == 1){
+					projects.push(arrGame[i][j]);
+				}
+			
+			}
+		}
+
+		let noDublicateProjects = (projects) => projects.filter((v,i) => projects.indexOf(v) === i)
+
+		
+
+    console.log(noDublicateProjects(projects)) // Logs array.
+  })
+
+})
+    </script>
 </body>
-
 </html>
